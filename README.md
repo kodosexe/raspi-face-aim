@@ -1,7 +1,9 @@
 #Raspi Face Aim
 
 This is a program that looks for faces in real time from a USB webcam feed, trying to center it in the frame by outputting instructions through the GPIO pins.
-Directions on the pinout to follow, but it is selfExplanatory.
+Directions on the pinout to follow, but it is self Explanatory.
+
+You will need OpenCV2 with all it's dependencies installed.
 
 A variable ending with OF means ON-OFF, so whether the motor should be enabled.
 A variable ending with DIR means Direction, so in what direction the motor should turn.
